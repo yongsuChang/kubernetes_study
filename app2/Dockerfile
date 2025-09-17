@@ -9,4 +9,4 @@ WORKDIR /root
 COPY hello.py .
 ENV my_ver=1.0
 
-ENTRYPOINT ["python", "hello.py", "guest"]
+ENTRYPOINT ["python", "hello.py"]
